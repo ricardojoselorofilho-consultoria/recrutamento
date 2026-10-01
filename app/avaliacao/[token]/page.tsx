@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { admin } from "@/lib/supabase/admin";
 import { carregarConvite, MENSAGENS } from "@/lib/convite";
-import { INSTRUMENTOS, conteudoPublico, respostasValidas, vazio, type Respostas } from "@/lib/instrumentos";
+import { conteudoPublico, respostasValidas, vazio, type Respostas, type Instrumento } from "@/lib/instrumentos";
 import Jornada from "./Jornada";
 
 export const dynamic = "force-dynamic";
@@ -24,10 +24,11 @@ export default async function Pagina({ params }: { params: Promise<{ token: stri
   }
 
   const { data } = await admin().from("respostas").select("instrumento, respostas").eq("candidato_id", conv.candidatoId);
-  const iniciais = Object.fromEntries(INSTRUMENTOS.map((k) => [k, vazio(k)])) as Respostas;
+  const lista = conv.instrumentos;
+  const iniciais = Object.fromEntries(lista.map((k) => [k, vazio(k)])) as Respostas;
   for (const linha of data ?? []) {
-    const k = linha.instrumento as keyof Respostas;
-    if (INSTRUMENTOS.includes(k) && respostasValidas(k, linha.respostas)) iniciais[k] = linha.respostas;
+    const k = linha.instrumento as Instrumento;
+    if (lista.includes(k) && respostasValidas(k, linha.respostas)) iniciais[k] = linha.respostas;
   }
 
   return (
@@ -35,7 +36,8 @@ export default async function Pagina({ params }: { params: Promise<{ token: stri
       token={token}
       nome={conv.nome}
       consentido={conv.consentido}
-      conteudo={conteudoPublico()}
+      instrumentos={lista}
+      conteudo={conteudoPublico(lista)}
       respostasIniciais={iniciais}
     />
   );

@@ -3,10 +3,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Instrumento, Publico, Respostas } from "@/lib/instrumentos";
 
-const ORDEM: Instrumento[] = ["indicador", "locus", "motivograma", "bases"];
 
 type Config = {
   titulo: string;
+  minutos: number;
   duracao: string;
   intro: string[];
   tipo: "escolha" | "pontos";
@@ -20,6 +20,7 @@ type Config = {
 const CONFIG: Record<Instrumento, Config> = {
   indicador: {
     titulo: "Indicador Tipológico",
+    minutos: 10,
     duracao: "44 perguntas, cerca de 10 minutos",
     intro: [
       "Este questionário ajuda a entender a forma como você prefere se relacionar, perceber o mundo, tomar decisões e organizar sua rotina.",
@@ -31,6 +32,7 @@ const CONFIG: Record<Instrumento, Config> = {
   },
   locus: {
     titulo: "Lócus de Controle",
+    minutos: 10,
     duracao: "20 questões, cerca de 10 minutos",
     intro: [
       "Este inventário identifica o quanto você atribui seus resultados ao próprio esforço e capacidade, ou a fatores externos como sorte, destino e circunstâncias.",
@@ -44,6 +46,7 @@ const CONFIG: Record<Instrumento, Config> = {
   },
   motivograma: {
     titulo: "Motivograma",
+    minutos: 8,
     duracao: "30 proposições, cerca de 8 minutos",
     intro: [
       "Este questionário mostra o seu perfil de motivação individual. Não é um teste de conhecimentos: não há alternativas boas ou más, corretas ou incorretas.",
@@ -57,6 +60,7 @@ const CONFIG: Record<Instrumento, Config> = {
   },
   bases: {
     titulo: "Bases Motivacionais",
+    minutos: 10,
     duracao: "45 pares de afirmações, cerca de 10 minutos",
     intro: [
       "Este questionário ajuda a entender o que mais move você no trabalho e nas relações com as pessoas.",
@@ -83,14 +87,17 @@ type Props = {
   token: string;
   nome: string;
   consentido: boolean;
-  conteudo: Publico;
+  instrumentos: Instrumento[];
+  conteudo: Partial<Publico>;
   respostasIniciais: Respostas;
 };
 
-function telaInicial(consentido: boolean, r: Respostas): Tela {
+const EXTENSO = ["", "um", "dois", "três", "quatro"];
+
+function telaInicial(consentido: boolean, r: Respostas, ORDEM: Instrumento[]): Tela {
   if (!consentido) return { t: "consentimento" };
   for (let k = 0; k < ORDEM.length; k++) {
-    const arr = r[ORDEM[k]];
+    const arr = r[ORDEM[k]]!;
     const i = arr.findIndex((v) => v === null);
     if (i === -1) continue;
     return arr.some((v) => v !== null) ? { t: "item", k, i } : { t: "intro", k };
@@ -98,9 +105,14 @@ function telaInicial(consentido: boolean, r: Respostas): Tela {
   return { t: "revisao" };
 }
 
-export default function Jornada({ token, nome, consentido, conteudo, respostasIniciais }: Props) {
+export default function Jornada({ token, nome, consentido, instrumentos, conteudo, respostasIniciais }: Props) {
+  const ORDEM = instrumentos;
+  const N = ORDEM.length;
+  const ultimo = N - 1;
+  const minutosTotal = ORDEM.reduce((t, k) => t + CONFIG[k].minutos, 0);
   const [resp, setResp] = useState<Respostas>(respostasIniciais);
-  const [tela, setTela] = useState<Tela>(() => telaInicial(consentido, respostasIniciais));
+  const [tela, setTela] = useState<Tela>(() => telaInicial(consentido, respostasIniciais, instrumentos));
+  const r = (inst: Instrumento) => resp[inst]!;
   const [salvamento, setSalvamento] = useState<"ok" | "salvando" | "erro">("ok");
   const [enviando, setEnviando] = useState(false);
   const [msgEnvio, setMsgEnvio] = useState("");
@@ -172,11 +184,11 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
   // ---------- Navegação ----------
   const proximo = (k: number, i: number) => {
     const inst = ORDEM[k];
-    const arr = respRef.current[inst];
+    const arr = respRef.current[inst]!;
     if (i < arr.length - 1) return setTela({ t: "item", k, i: i + 1 });
     const falta = arr.findIndex((v) => v === null);
     if (falta !== -1) return setTela({ t: "item", k, i: falta });
-    setTela(k < ORDEM.length - 1 ? { t: "intro", k: k + 1 } : { t: "revisao" });
+    setTela(k < ultimo ? { t: "intro", k: k + 1 } : { t: "revisao" });
   };
   const anterior = (k: number, i: number) => {
     if (i > 0) setTela({ t: "item", k, i: i - 1 });
@@ -186,7 +198,7 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
   const responder = (k: number, i: number, valor: number) => {
     const inst = ORDEM[k];
     const atual = respRef.current;
-    const novo = { ...atual, [inst]: atual[inst].map((v, j) => (j === i ? valor : v)) };
+    const novo = { ...atual, [inst]: atual[inst]!.map((v, j) => (j === i ? valor : v)) };
     respRef.current = novo;
     setResp(novo);
     agendarSalvar(inst);
@@ -205,7 +217,7 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
       if (cfg.tipo === "escolha" && (e.key === "1" || e.key === "2")) responder(k, i, n);
       else if (cfg.tipo === "pontos" && /^[0-9]$/.test(e.key) && n <= cfg.max) responder(k, i, n);
       else if (e.key === "ArrowLeft") anterior(k, i);
-      else if (e.key === "ArrowRight" && respRef.current[ORDEM[k]][i] !== null) proximo(k, i);
+      else if (e.key === "ArrowRight" && respRef.current[ORDEM[k]]![i] !== null) proximo(k, i);
     };
     window.addEventListener("keydown", tecla);
     return () => window.removeEventListener("keydown", tecla);
@@ -213,7 +225,7 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
 
   const aceitar = async () => {
     const r = await api({ acao: "consentir" });
-    if (r.ok) setTela(telaInicial(true, respRef.current));
+    if (r.ok) setTela(telaInicial(true, respRef.current, ORDEM));
   };
 
   const enviar = async () => {
@@ -231,13 +243,13 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
   };
 
   // ---------- Telas ----------
-  const etapaAtual = tela.t === "intro" || tela.t === "item" ? tela.k : tela.t === "revisao" || tela.t === "enviado" ? 4 : -1;
+  const etapaAtual = tela.t === "intro" || tela.t === "item" ? tela.k : tela.t === "revisao" || tela.t === "enviado" ? N : -1;
 
   return (
     <div className="jornada">
       <header className="topo">
         <span className="marca">RJL Consultoria</span>
-        {etapaAtual >= 0 && tela.t !== "enviado" && (
+        {etapaAtual >= 0 && tela.t !== "enviado" && N > 1 && (
           <ol className="etapas" aria-label="Etapas da avaliação">
             {ORDEM.map((inst, k) => (
               <li key={inst} className={k === etapaAtual ? "atual" : k < etapaAtual ? "feita" : ""} aria-current={k === etapaAtual ? "step" : undefined}>
@@ -254,7 +266,9 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
           <section className="cartao estreito">
             <h1>Olá, {primeiro}.</h1>
             <p className="lead">
-              Esta avaliação faz parte do processo seletivo. São quatro questionários curtos sobre como você prefere trabalhar, decidir e se relacionar. O tempo total é de cerca de 40 minutos.
+              Esta avaliação faz parte do processo seletivo.{" "}
+              {N === 1 ? `É um questionário curto: ${CONFIG[ORDEM[0]].titulo}.` : `São ${EXTENSO[N]} questionários curtos sobre como você prefere trabalhar, decidir e se relacionar.`}{" "}
+              O tempo total é de cerca de {minutosTotal} minutos.
             </p>
             <p>Não há respostas certas ou erradas. Você pode parar a qualquer momento e continuar depois pelo mesmo link: cada resposta fica salva assim que você marca.</p>
             <div className="termo">
@@ -270,10 +284,10 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
 
         {tela.t === "intro" && (() => {
           const cfg = CONFIG[ORDEM[tela.k]];
-          const feitas = resp[ORDEM[tela.k]].filter((v) => v !== null).length;
+          const feitas = r(ORDEM[tela.k]).filter((v) => v !== null).length;
           return (
             <section className="cartao estreito">
-              <p className="contexto">Etapa {tela.k + 1} de 4</p>
+              {N > 1 && <p className="contexto">Etapa {tela.k + 1} de {N}</p>}
               <h1>{cfg.titulo}</h1>
               <p className="duracao">{cfg.duracao}</p>
               {cfg.intro.map((p) => <p key={p}>{p}</p>)}
@@ -285,7 +299,7 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
                 </dl>
               )}
               <button className="btn" onClick={() => {
-                const falta = resp[ORDEM[tela.k]].findIndex((v) => v === null);
+                const falta = r(ORDEM[tela.k]).findIndex((v) => v === null);
                 setTela({ t: "item", k: tela.k, i: falta === -1 ? 0 : falta });
               }}>
                 {feitas > 0 ? "Continuar de onde parei" : "Começar"}
@@ -298,10 +312,10 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
           const { k, i } = tela;
           const inst = ORDEM[k];
           const cfg = CONFIG[inst];
-          const item = conteudo[inst][i] as { pergunta?: string; a: string; b: string };
-          const valor = resp[inst][i];
-          const total = resp[inst].length;
-          const feitas = resp[inst].filter((v) => v !== null).length;
+          const item = conteudo[inst]![i] as { pergunta?: string; a: string; b: string };
+          const valor = r(inst)[i];
+          const total = r(inst).length;
+          const feitas = r(inst).filter((v) => v !== null).length;
           return (
             <section className="cartao pergunta" key={`${k}-${i}`}>
               <div className="progresso">
@@ -358,7 +372,7 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
               <nav className="navegacao">
                 <button className="btn-sec" onClick={() => anterior(k, i)}>Voltar</button>
                 <button className="btn" disabled={valor === null} onClick={() => proximo(k, i)}>
-                  {i === total - 1 ? (k === 3 ? "Revisar e enviar" : "Concluir etapa") : "Próxima"}
+                  {i === total - 1 ? (k === ultimo ? "Revisar e enviar" : "Concluir etapa") : "Próxima"}
                 </button>
               </nav>
               {salvamento === "erro" && (
@@ -375,17 +389,17 @@ export default function Jornada({ token, nome, consentido, conteudo, respostasIn
           <section className="cartao estreito">
             <p className="contexto">Último passo</p>
             <h1>Tudo respondido</h1>
-            <p className="lead">Você respondeu às quatro etapas. Depois de enviar, não será possível alterar as respostas e este link deixará de funcionar.</p>
+            <p className="lead">{N === 1 ? "Você respondeu a todas as perguntas." : `Você respondeu às ${EXTENSO[N]} etapas.`} Depois de enviar, não será possível alterar as respostas e este link deixará de funcionar.</p>
             <ul className="resumo-etapas">
               {ORDEM.map((inst) => (
                 <li key={inst}>
                   <span>{CONFIG[inst].titulo}</span>
-                  <span>{resp[inst].filter((v) => v !== null).length} de {resp[inst].length}</span>
+                  <span>{r(inst).filter((v) => v !== null).length} de {r(inst).length}</span>
                 </li>
               ))}
             </ul>
             <div className="navegacao">
-              <button className="btn-sec" onClick={() => setTela({ t: "item", k: 3, i: resp.bases.length - 1 })}>Voltar às perguntas</button>
+              <button className="btn-sec" onClick={() => setTela({ t: "item", k: ultimo, i: r(ORDEM[ultimo]).length - 1 })}>Voltar às perguntas</button>
               <button className="btn" onClick={enviar} disabled={enviando}>{enviando ? "Enviando" : "Enviar respostas"}</button>
             </div>
             {msgEnvio && <p className="erro">{msgEnvio}</p>}

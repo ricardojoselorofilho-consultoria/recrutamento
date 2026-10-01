@@ -1,9 +1,7 @@
 import { NextResponse } from "next/server";
 import { admin } from "@/lib/supabase/admin";
 import { carregarConvite, MENSAGENS } from "@/lib/convite";
-import {
-  INSTRUMENTOS, type Instrumento, respostasValidas, completo, calcular,
-} from "@/lib/instrumentos";
+import { type Instrumento, respostasValidas, completo, calcular } from "@/lib/instrumentos";
 
 export const dynamic = "force-dynamic";
 
@@ -28,7 +26,7 @@ export async function POST(req: Request, { params }: { params: Promise<{ token: 
     case "salvar": {
       if (!conv.consentido) return erro("Aceite o termo antes de responder.", 400);
       const inst = corpo.instrumento as Instrumento;
-      if (!INSTRUMENTOS.includes(inst) || !respostasValidas(inst, corpo.respostas))
+      if (!conv.instrumentos.includes(inst) || !respostasValidas(inst, corpo.respostas))
         return erro("Respostas em formato inválido.", 400);
       const { error } = await db.from("respostas").upsert({
         candidato_id: conv.candidatoId, instrumento: inst, respostas: corpo.respostas, atualizado_em: agora,
@@ -41,11 +39,12 @@ export async function POST(req: Request, { params }: { params: Promise<{ token: 
       if (!conv.consentido) return erro("Aceite o termo antes de responder.", 400);
       const { data } = await db.from("respostas").select("instrumento, respostas").eq("candidato_id", conv.candidatoId);
       const mapa = Object.fromEntries((data ?? []).map((l) => [l.instrumento, l.respostas]));
-      for (const inst of INSTRUMENTOS) {
+      for (const inst of conv.instrumentos) {
         if (!respostasValidas(inst, mapa[inst]) || !completo(mapa[inst]))
           return erro("Ainda há perguntas sem resposta.", 400);
       }
-      const resultado = calcular(mapa as Record<Instrumento, number[]>);
+      const selecionadas = Object.fromEntries(conv.instrumentos.map((k) => [k, mapa[k]]));
+      const resultado = calcular(selecionadas as Partial<Record<Instrumento, number[]>>);
       const { error } = await db
         .from("resultados")
         .upsert({ candidato_id: conv.candidatoId, dados: resultado, calculado_em: agora });

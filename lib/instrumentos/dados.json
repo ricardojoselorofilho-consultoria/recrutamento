@@ -1,0 +1,1341 @@
+{
+ "ind": {
+  "Q": [
+   [
+    "Se você tem algo importante (mas não urgente) para dizer a um colega que trabalha em outra cidade, você prefere se expressar:",
+    "Por escrito.",
+    "Por telefone.",
+    "I",
+    "E"
+   ],
+   [
+    "Ao participar de uma festa ou outro evento social, você:",
+    "Costuma conversar com várias pessoas, incluindo desconhecidos.",
+    "Prefere conversar com poucas pessoas, já conhecidas.",
+    "E",
+    "I"
+   ],
+   [
+    "Você costuma ferir os sentimentos alheios sem perceber?",
+    "Nunca ou muito raramente.",
+    "De vez em quando.",
+    "F",
+    "T"
+   ],
+   [
+    "Ao ler um livro você prefere:",
+    "O estilo literário, cheio de frases de efeito e metáforas.",
+    "O estilo jornalístico, com frases mais simples e descrições mais próximas da realidade.",
+    "N",
+    "S"
+   ],
+   [
+    "Você sente prazer em:",
+    "Discutir um assunto a fundo até que sua opinião prevaleça.",
+    "Chegar a um consenso o mais rápido possível.",
+    "N",
+    "S"
+   ],
+   [
+    "Ao expor seu ponto de vista sobre um determinado assunto, você se considera convincente a ponto de mudar a opinião das pessoas?",
+    "Sim.",
+    "Não.",
+    "T",
+    "F"
+   ],
+   [
+    "Ao escolher uma possível solução para um problema, você geralmente:",
+    "Escolhe uma saída já experimentada.",
+    "Tenta um novo caminho.",
+    "S",
+    "N"
+   ],
+   [
+    "Se tivesse que falar sobre um assunto que você domina para um grupo com mais de 50 pessoas, você:",
+    "Permaneceria tranquilo, quase como se estivesse conversando com uma só pessoa.",
+    "Ficaria nervoso.",
+    "E",
+    "I"
+   ],
+   [
+    "Se pudesse escolher livremente um horário de trabalho, você optaria por:",
+    "Horários fixos de entrada, almoço e saída.",
+    "Horários flexíveis que resultassem na mesma carga diária de trabalho.",
+    "J",
+    "P"
+   ],
+   [
+    "Com relação ao futuro, você:",
+    "Costuma definir planos de longo prazo (anos à frente) e persegue as etapas para alcançá-los.",
+    "Planeja mais o futuro imediato (meses à frente) e deixa as coisas irem acontecendo a partir daí.",
+    "J",
+    "P"
+   ],
+   [
+    "Ao defender uma ideia em público, você costuma:",
+    "Pensar bastante antes de falar.",
+    "Ir pensando enquanto fala.",
+    "I",
+    "E"
+   ],
+   [
+    "No trabalho, você prefere:",
+    "Avançar em várias tarefas ao mesmo tempo.",
+    "Concentrar-se em uma tarefa até concluí-la.",
+    "E",
+    "I"
+   ],
+   [
+    "O que mais o faz admirar uma pessoa?",
+    "Criatividade.",
+    "Sensatez.",
+    "N",
+    "S"
+   ],
+   [
+    "Quando precisa avaliar uma alternativa, você:",
+    "Avalia os prós e contras com o mesmo empenho para chegar a uma conclusão.",
+    "Tende a olhar mais para as vantagens e relegar as desvantagens a segundo plano.",
+    "T",
+    "F"
+   ],
+   [
+    "Numa mesa de bar com sete ou oito amigos que se conhecem bem, você costuma:",
+    "Ser um dos que mais falam.",
+    "Ser um dos que menos falam.",
+    "E",
+    "I"
+   ],
+   [
+    "No ambiente de trabalho, você prefere:",
+    "Dizer o que precisa ser dito, mesmo que magoe a outra pessoa.",
+    "Evitar dizer coisas que possam magoar a outra pessoa.",
+    "T",
+    "F"
+   ],
+   [
+    "Ao dar exemplos, você costuma:",
+    "Relatar situações que ocorreram de fato.",
+    "Descrever situações hipotéticas.",
+    "S",
+    "N"
+   ],
+   [
+    "Com relação a mudanças de cidade, você:",
+    "Se empolga com o clima de novidade em torno da mudança.",
+    "Se sente desconfortável e inseguro.",
+    "P",
+    "J"
+   ],
+   [
+    "Você costuma ser mais convencido por informações transmitidas:",
+    "De forma lógica e organizada, porém fria.",
+    "Com entusiasmo, mesmo que sem tanta organização.",
+    "T",
+    "F"
+   ],
+   [
+    "Com relação a prazos curtos para o cumprimento de uma tarefa, você:",
+    "Se sente desconfortável e não gosta da situação.",
+    "Se sente desafiado e lida bem com a situação.",
+    "N",
+    "S"
+   ],
+   [
+    "Você imagina que é mais visto(a) como:",
+    "Uma pessoa gentil e aberta.",
+    "Uma pessoa de opiniões fortes.",
+    "F",
+    "T"
+   ],
+   [
+    "Que tipo de pessoa lhe irritaria mais no convívio cotidiano:",
+    "A muito indecisa, aquela que cogita várias hipóteses e tem dificuldade para tomar a decisão.",
+    "A muito decidida, aquela que sabe exatamente que decisão tomar e sequer aceita sugestões.",
+    "S",
+    "N"
+   ],
+   [
+    "Quando você estipula metas:",
+    "Faz o máximo possível para cumpri-las e normalmente consegue.",
+    "Frequentemente abre mão delas em função de outras prioridades que vão surgindo.",
+    "J",
+    "P"
+   ],
+   [
+    "Com relação à velocidade da sua fala:",
+    "Tende a ser rápida, com imediato encadeamento de ideias.",
+    "Tende a ser devagar, com muitas pausas para reflexão.",
+    "E",
+    "I"
+   ],
+   [
+    "Você considera que:",
+    "Lei é lei e deve ser cumprida de qualquer forma.",
+    "As circunstâncias de eventual descumprimento de uma lei devem ser avaliadas e levadas em conta.",
+    "J",
+    "P"
+   ],
+   [
+    "Você se sentiria mais à vontade numa festa frequentada essencialmente por:",
+    "Publicitários.",
+    "Engenheiros.",
+    "N",
+    "S"
+   ],
+   [
+    "Quando marca um compromisso, você:",
+    "Raramente chega no horário.",
+    "Raramente se atrasa.",
+    "P",
+    "J"
+   ],
+   [
+    "Quando você toma uma decisão:",
+    "Quase nunca volta atrás.",
+    "Frequentemente volta atrás.",
+    "J",
+    "P"
+   ],
+   [
+    "Ao avaliar situações e pessoas, você prioriza:",
+    "O seu senso de justiça.",
+    "O seu sentimento de compreensão e compaixão.",
+    "T",
+    "F"
+   ],
+   [
+    "Você se sentiria mais satisfeito se fosse considerado:",
+    "Extremamente racional.",
+    "Extremamente sentimental.",
+    "T",
+    "F"
+   ],
+   [
+    "Para você, o que é mais importante na relação com um colega de trabalho:",
+    "A empatia entre vocês.",
+    "Ter plena confiança na capacidade profissional dele.",
+    "F",
+    "T"
+   ],
+   [
+    "Em uma entrevista de emprego, você:",
+    "Não encontra dificuldades para falar das próprias virtudes.",
+    "Se sente constrangido e tem dificuldades para falar das próprias virtudes.",
+    "E",
+    "I"
+   ],
+   [
+    "Qual seu ambiente de trabalho preferido?",
+    "Silencioso, com poucas interações com outras pessoas.",
+    "Barulhento, com muitas interações com outras pessoas.",
+    "I",
+    "E"
+   ],
+   [
+    "Ao sair de um ambiente que acabou de conhecer, você:",
+    "É capaz de descrever os detalhes.",
+    "Consegue fazer uma boa descrição genérica, sem muitos detalhes.",
+    "S",
+    "N"
+   ],
+   [
+    "Ao acordar, você prefere a ideia de que seu dia:",
+    "Terá algum imprevisto, um acontecimento que mude a rotina.",
+    "Transcorrerá exatamente conforme o rotineiro e planejado.",
+    "P",
+    "J"
+   ],
+   [
+    "No cotidiano (ao se relacionar com outras pessoas, no ambiente de trabalho, ao ver um filme etc.), você recorre mais:",
+    "Ao elogio.",
+    "À crítica.",
+    "F",
+    "T"
+   ],
+   [
+    "Nos ambientes de trabalho pelos quais passou, você:",
+    "Fez muitas amizades pessoais a ponto de frequentar a casa do outro e conhecer seus familiares.",
+    "Fez poucas amizades pessoais.",
+    "E",
+    "I"
+   ],
+   [
+    "Ao avaliar uma situação, você:",
+    "Presta atenção essencialmente ao que é real, palpável.",
+    "Leva em conta o “sexto sentido”, aquilo que não é tão palpável.",
+    "S",
+    "N"
+   ],
+   [
+    "Ao se mudar para um novo prédio ou bairro, você:",
+    "Cria situações de aproximação com os vizinhos.",
+    "Espera a aproximação ocorrer naturalmente.",
+    "E",
+    "I"
+   ],
+   [
+    "Em trabalhos de ficção, como filmes e livros, você se identifica mais com:",
+    "Um personagem que usa a lógica e a inteligência para colocar na cadeia o responsável por um crime que lhe tenha prejudicado.",
+    "Um personagem que age levado pela emoção e se vinga diretamente do criminoso.",
+    "T",
+    "F"
+   ],
+   [
+    "Ao planejar a compra de um carro novo, você tende a:",
+    "Escolher de antemão o modelo ou a marca e a partir daí procurar o melhor preço e condições de pagamento.",
+    "Levar em conta diferentes modelos e marcas ao pesquisar preços e condições de pagamento.",
+    "J",
+    "P"
+   ],
+   [
+    "Ao receber uma tarefa iniciada por outra pessoa, mas que esteja ainda longe de ser concluída (organizar um fichário, por exemplo), você:",
+    "Tenta ao máximo entender o que já foi feito para seguir a partir dali.",
+    "Prefere ter liberdade para definir sua própria estratégia e começar do zero.",
+    "S",
+    "N"
+   ],
+   [
+    "Você se sente mais incomodado quando:",
+    "Tem uma lista grande de tarefas a realizar.",
+    "Consegue zerar a lista de tarefas a realizar.",
+    "J",
+    "P"
+   ],
+   [
+    "Que definição combina melhor com você:",
+    "Maleável e com facilidade para se adaptar.",
+    "Organizado e metódico.",
+    "P",
+    "J"
+   ]
+  ],
+  "NAMES": {
+   "E": "Extroversão",
+   "I": "Introversão",
+   "S": "Sensação",
+   "N": "Intuição",
+   "T": "Pensamento",
+   "F": "Sentimento",
+   "J": "Julgamento",
+   "P": "Percepção"
+  },
+  "PAIRS": [
+   [
+    "E",
+    "I",
+    "De onde vem a sua energia"
+   ],
+   [
+    "S",
+    "N",
+    "Como você percebe as informações"
+   ],
+   [
+    "T",
+    "F",
+    "Como você toma decisões"
+   ],
+   [
+    "J",
+    "P",
+    "Como você organiza a sua rotina"
+   ]
+  ],
+  "TYPES": {
+   "ISTJ": [
+    "O Inspetor",
+    "Reservado, perseverante, fiel e cuidadoso. Sistemático, organizado e atento aos fatos. Trabalhador, meticuloso e pé no chão; pragmático, honesto e honra seus compromissos. Faz o que é certo e espera o mesmo dos outros. É calmo e firme em momentos de crise."
+   ],
+   "ISFJ": [
+    "O Protetor",
+    "Honesto e cooperativo. Leal, digno de crédito e autodisciplinado. Respeita a ética profissional e completa suas tarefas nos prazos. Tem excelente memória para detalhes. Amigo silencioso, sério e reservado, frequentemente trabalha nos bastidores ajudando os outros. Modesto, diplomata e gentil."
+   ],
+   "INFJ": [
+    "O Conselheiro",
+    "Sensível, profundo e sério ao considerar valores pessoais e convicções. Tem vida interior rica e valoriza a integridade pessoal. Criativo, original e idealista. Reservado, gentil e compassivo. Sente grande necessidade de harmonia. Consciencioso, determinado e perseverante."
+   ],
+   "INTJ": [
+    "O Organizador",
+    "Independente e individualista. Tem muita perspicácia e visão. Hábil em criar teorias e métodos. Estimula a si mesmo e aos outros a alcançar seus objetivos e o autodesenvolvimento. Engenhoso e criativo ao resolver problemas. Organizado, determinado e líder confiável. Responsável, reservado e discreto."
+   ],
+   "ISTP": [
+    "O Virtuoso",
+    "Prefere agir a conversar. Gosta de aventura e desafios e resolve bem as crises. Sai-se bem em trabalhos com ferramentas, máquinas ou que exijam habilidade manual. Cheio de expedientes, independente e determinado. Coerente, realista e prático. Reservado, observador e curioso."
+   ],
+   "ISFP": [
+    "O Compositor",
+    "Leal e compassivo. Aparenta ser reservado e simples e ajuda os outros discretamente. Paciente, sabe aceitar as coisas como são e não faz julgamentos. Sensibiliza-se com conflitos e discórdias e tem pouca necessidade de controlar os outros. Modesto, sensível e gentil."
+   ],
+   "INFP": [
+    "O Curador",
+    "Devotado, compassivo, de mente aberta e gentil. Gosta de aprender e de estar envolvido em projetos próprios. Tem convicções apaixonadas e persegue ideais. Estabelece padrões elevados para si mesmo. Idealista, sensível e criativo. Pode ser reservado e contemplativo."
+   ],
+   "INTP": [
+    "O Arquiteto",
+    "Pensador original, brilhante e competente para solucionar problemas. Não-conformista, valoriza a precisão no pensar e no falar e observa inconsistências e contradições. Independente, curioso e compreensivo. Discreto, reservado e introspectivo."
+   ],
+   "ESTP": [
+    "O Promotor",
+    "Gosta de enfrentar riscos, desafios e aventuras. Cheio de energia, vive em constante movimento. Atento, confiante e persuasivo. Direto e competente, cheio de expedientes, responde bem às crises. Realista, pragmático e negociador habilidoso."
+   ],
+   "ESFP": [
+    "O Performático",
+    "Solícito, generoso, cooperativo, gosta de ajudar os outros. Amigável, enérgico, vivaz e charmoso. Tolerante, aceita a si mesmo e aos outros. Tem senso prático, enfatiza o positivo, gosta de novas experiências e tem entusiasmo pela vida."
+   ],
+   "ENFP": [
+    "O Campeão",
+    "Acolhedor, prestativo, respeitador e compassivo. Cheio de entusiasmo e novas ideias. Valoriza a liberdade e a autonomia. Sabe se comunicar muito bem e inspirar ações. Criativo, espontâneo, positivo e amante de diversões."
+   ],
+   "ENTP": [
+    "O Inventor",
+    "Desenvolto em desafios e debates. Entusiasta, charmoso e espirituoso. Valoriza a liberdade e a independência. Criativo, empreendedor e competente. Espontâneo, gosta de enfrentar riscos e está atento a todas as possibilidades. Inquiridor e curioso."
+   ],
+   "ESTJ": [
+    "O Supervisor",
+    "Extrovertido, ativo e fidedigno. Eficiente, organizado e decidido. Gosta de administrar e dirigir; ótimo para definir e aplicar políticas e procedimentos. Afirmativo, franco e direto. Responsável, esforçado, bom planejador, consistente e pragmático."
+   ],
+   "ESFJ": [
+    "O Provedor",
+    "Entusiasta, sociável e cativante. Gosta de se sentir necessário e estimado. Compreensivo e cooperativo, solidário e diligente em tarefas organizacionais. Digno de confiança, leal e responsável. Valoriza a harmonia e demonstra seu cuidado através de atitudes práticas."
+   ],
+   "ENFJ": [
+    "O Professor",
+    "Charmoso, entusiasta e socialmente ativo. Orador persuasivo e inspirado, líder carismático que motiva outras pessoas. Simpático, caloroso, prestativo e solidário. Responsável, consciente e idealista. Diplomático e bom em promover harmonia."
+   ],
+   "ENTJ": [
+    "O Comandante",
+    "Líder confiável que gosta de estar no comando. Decidido e ambicioso. Aprecia o intercâmbio intelectual. Engenhoso e competente para resolver problemas complexos. Inovador, analítico e coerente. Determinado e independente, aspira ser o melhor em tudo o que faz."
+   ]
+  }
+ },
+ "loc": {
+  "Q": [
+   {
+    "a": "A capacidade de um empreendedor acaba tendo pouca influência sobre o sucesso que ele obtém, porque isso depende de muitos outros fatores.",
+    "b": "Um empreendedor capaz sempre consegue definir o destino do seu negócio.",
+    "ci": "B"
+   },
+   {
+    "a": "Empreendedorismo é um dom que nasce com a pessoa.",
+    "b": "É possível desenvolver o empreendedorismo ao longo da vida.",
+    "ci": "B"
+   },
+   {
+    "a": "A competência dos concorrentes define se um vendedor conseguirá vender seus produtos.",
+    "b": "Um vendedor capaz sempre consegue vender seus produtos, mesmo com bons concorrentes.",
+    "ci": "B"
+   },
+   {
+    "a": "O planejamento é um fator determinante para o sucesso de um empreendimento.",
+    "b": "O planejamento não define o sucesso de um empreendimento, porque sempre surgem fatores inesperados que se tornam mais decisivos.",
+    "ci": "A"
+   },
+   {
+    "a": "A condição econômica da pessoa é essencial para que ela se transforme em uma empreendedora de sucesso.",
+    "b": "Um empreendedor pode se tornar sucesso independentemente da condição econômica.",
+    "ci": "B"
+   },
+   {
+    "a": "Os erros dos empreendedores surgem principalmente da sua própria falta de habilidade e de percepção.",
+    "b": "Os erros dos empreendedores surgem principalmente de fatores sobre os quais eles não têm controle.",
+    "ci": "A"
+   },
+   {
+    "a": "Os empreendedores são frequentemente vitimados por fatores conjunturais que sequer chegam a compreender plenamente.",
+    "b": "A informação e o envolvimento em temas sociais, políticos e econômicos podem levar os empreendedores a compreender todos os fatores que afetam seu negócio.",
+    "ci": "B"
+   },
+   {
+    "a": "Obter um empréstimo depende sobretudo da boa vontade do banco.",
+    "b": "Obter um empréstimo depende sobretudo da viabilidade do plano de negócio.",
+    "ci": "B"
+   },
+   {
+    "a": "Buscar informações com vários fornecedores antes de comprar matéria-prima é essencial para obter o melhor produto.",
+    "b": "Não há porque perder tempo coletando informações: a qualidade do produto que se compra está diretamente relacionada ao valor que se paga.",
+    "ci": "A"
+   },
+   {
+    "a": "Ter ou não lucro depende da sorte.",
+    "b": "Ter ou não lucro depende da competência.",
+    "ci": "B"
+   },
+   {
+    "a": "Há pessoas que, por suas características, jamais terão sucesso como empreendedoras.",
+    "b": "É possível desenvolver capacidade empreendedora em pessoas com qualquer tipo de perfil.",
+    "ci": "B"
+   },
+   {
+    "a": "As origens sociais de uma pessoa definem se ela terá sucesso como empreendedora.",
+    "b": "Não importam as origens sociais; o esforço e a capacidade da pessoa podem levá-la ao sucesso como empreendedora.",
+    "ci": "B"
+   },
+   {
+    "a": "Não há como escapar dos entraves causados pela burocracia (órgãos do governo, funcionários públicos, bancos).",
+    "b": "É possível não depender da burocracia.",
+    "ci": "B"
+   },
+   {
+    "a": "O mercado se tornou tão imprevisível que é aceitável empreendedores de visão errarem.",
+    "b": "Um empreendedor deve culpar a si próprio pelos seus erros de percepção.",
+    "ci": "B"
+   },
+   {
+    "a": "O destino de cada um depende de seus próprios esforços.",
+    "b": "Tentar mudar o destino de alguém é inútil. O que tiver que ser, será.",
+    "ci": "A"
+   },
+   {
+    "a": "Há muitas circunstâncias que escapam do controle do empreendedor.",
+    "b": "Os empreendedores fazem suas próprias circunstâncias.",
+    "ci": "B"
+   },
+   {
+    "a": "Não importa o quanto nos esforçamos, só conseguimos realizar o que está reservado pelo destino.",
+    "b": "Os resultados que obtemos dependem dos nossos esforços.",
+    "ci": "B"
+   },
+   {
+    "a": "A eficácia de uma organização depende sobretudo da existência de pessoas competentes.",
+    "b": "Por mais competentes que sejam os profissionais de uma empresa, as condições socioeconômicas podem levá-la a enfrentar sérios problemas.",
+    "ci": "A"
+   },
+   {
+    "a": "Às vezes é melhor deixar as coisas se encaminharem sozinhas, ao acaso.",
+    "b": "Agir para resolver os problemas é sempre melhor do que deixá-los ao acaso.",
+    "ci": "B"
+   },
+   {
+    "a": "A competência no trabalho sempre será reconhecida.",
+    "b": "Por mais que alguém seja competente, ele depende dos contatos para crescer.",
+    "ci": "A"
+   }
+  ],
+  "LEVELS": [
+   {
+    "min": null,
+    "max": 1,
+    "range": "Abaixo de 1,0",
+    "title": "Orientação por controle externo",
+    "text": "Indica que você possui um alto nível de orientação por controle externo, com poucas possibilidades de tomar iniciativas próprias ou de se destacar profissionalmente."
+   },
+   {
+    "min": 1,
+    "max": 3,
+    "range": "Entre 1,0 e 2,9",
+    "title": "Controle interno em desenvolvimento",
+    "text": "Indica que você tem potencial para assumir iniciativas próprias, mas é importante aumentar o seu nível de controle interno nas suas atividades profissionais."
+   },
+   {
+    "min": 3,
+    "max": 5,
+    "range": "Entre 3,0 e 4,9",
+    "title": "Bom controle interno",
+    "text": "Indica que você tem um bom nível de controle interno."
+   },
+   {
+    "min": 5,
+    "max": 7,
+    "range": "Entre 5,0 e 6,9",
+    "title": "Excelente controle interno",
+    "text": "Indica que você tem um excelente nível de controle interno, com grande possibilidade de liderar novas iniciativas ou de se destacar profissionalmente."
+   },
+   {
+    "min": 7,
+    "max": null,
+    "range": "De 7,0 em diante",
+    "title": "Controle interno fora do comum",
+    "text": "Indica que você tem um nível de controle interno fora do comum. Dificilmente suportará estruturas corporativas muito rígidas."
+   }
+  ]
+ },
+ "mot": {
+  "ITEMS": [
+   {
+    "n": 1,
+    "q": "O que mais me incentiva e estimula o meu desempenho é:",
+    "a": {
+     "l": "v",
+     "t": "Um salário compatível com as minhas necessidades básicas e as de minha família."
+    },
+    "b": {
+     "l": "z",
+     "t": "A oportunidade de testar a minha própria capacidade e ter acesso aos meus resultados."
+    }
+   },
+   {
+    "n": 2,
+    "q": "Se eu tiver que escolher entre duas organizações para trabalhar, prefiro aquela que:",
+    "a": {
+     "l": "w",
+     "t": "Oferecer-me normas de trabalho claramente definidas, sólidas garantias de estabilidade, e assegurar-me privilégios mais amplos de assistência médica hospitalar."
+    },
+    "b": {
+     "l": "z",
+     "t": "Proporcionar-me autonomia para criar, liberdade para experimentar e autoridade para inovar."
+    }
+   },
+   {
+    "n": 3,
+    "q": "O tipo de subordinado que mais me irrita é aquele que:",
+    "a": {
+     "l": "v",
+     "t": "Não valoriza as boas condições ambientais de trabalho que lhe são oferecidas (instalações físicas confortáveis, bem iluminadas, restaurante interno etc.)."
+    },
+    "b": {
+     "l": "y",
+     "t": "Não me oferece o devido respeito e consideração."
+    }
+   },
+   {
+    "n": 4,
+    "q": "Desenvolvo minhas responsabilidades com maior entusiasmo e eficiência quando:",
+    "a": {
+     "l": "v",
+     "t": "Recebo um salário compatível com as minhas necessidades básicas e as de minha família."
+    },
+    "b": {
+     "l": "x",
+     "t": "Mantenho um relacionamento cordial e harmonioso com os meus colegas, meus superiores e meus subordinados, bem como a convicção de que sou bem aceito por eles."
+    }
+   },
+   {
+    "n": 5,
+    "q": "Se na minha próxima promoção me for dado escolher entre dois cargos, darei preferência àquele que:",
+    "a": {
+     "l": "w",
+     "t": "Oferecer-me normas de trabalho claramente definidas, sólidas garantias de estabilidade, e assegurar-me privilégios mais amplos de assistência médica hospitalar."
+    },
+    "b": {
+     "l": "y",
+     "t": "Conferir-me maior prestígio e poder."
+    }
+   },
+   {
+    "n": 6,
+    "q": "A minha produtividade pode ser prejudicada quando:",
+    "a": {
+     "l": "x",
+     "t": "Delegam-me responsabilidades que exigem a minha dedicação pessoal e fico privado de compartilhar os meus problemas e as minhas ideias com os meus companheiros."
+    },
+    "b": {
+     "l": "z",
+     "t": "As minhas responsabilidades pessoais deixarem de representar um desafio."
+    }
+   },
+   {
+    "n": 7,
+    "q": "O que mais me incentiva e estimula o meu desempenho é:",
+    "a": {
+     "l": "w",
+     "t": "Um supervisor imediato em quem eu possa confiar, condições de trabalho bem organizadas e um ambiente de trabalho onde quase tudo já foi previsto e planejado."
+    },
+    "b": {
+     "l": "y",
+     "t": "O reconhecimento que me conferem exclusivamente em função dos meus méritos."
+    }
+   },
+   {
+    "n": 8,
+    "q": "Se eu tiver que escolher entre duas organizações para trabalhar, prefiro aquela que:",
+    "a": {
+     "l": "v",
+     "t": "Oferecer-me boas condições de trabalho: ambiente confortável, amplo e limpo, com boa iluminação e temperatura agradável, restaurante interno e comida saborosa."
+    },
+    "b": {
+     "l": "x",
+     "t": "Convidar-me para fazer parte de uma equipe de trabalho que mantém excelentes relações entre os seus membros."
+    }
+   },
+   {
+    "n": 9,
+    "q": "O tipo de subordinado que mais me irrita é aquele que:",
+    "a": {
+     "l": "y",
+     "t": "Não me confere o devido respeito e consideração."
+    },
+    "b": {
+     "l": "z",
+     "t": "Resiste a colaborar comigo na experimentação de novas ideias."
+    }
+   },
+   {
+    "n": 10,
+    "q": "Desenvolvo minhas responsabilidades com maior entusiasmo e eficiência quando:",
+    "a": {
+     "l": "w",
+     "t": "Tenho um superior imediato em quem eu possa confiar, condições de trabalho bem organizadas e um ambiente de trabalho onde quase tudo já foi previsto e planejado."
+    },
+    "b": {
+     "l": "z",
+     "t": "Proporcionam-me uma oportunidade de testar a minha própria capacidade e tenho acesso aos meus resultados."
+    }
+   },
+   {
+    "n": 11,
+    "q": "Se na minha próxima promoção me for dado escolher entre dois cargos, darei preferência àquele que:",
+    "a": {
+     "l": "v",
+     "t": "Oferecer-me boas condições de trabalho: ambiente confortável, amplo e limpo, com boa iluminação e temperatura agradável, restaurante interno e comida saborosa."
+    },
+    "b": {
+     "l": "y",
+     "t": "Conferir-me maior prestígio e poder."
+    }
+   },
+   {
+    "n": 12,
+    "q": "A minha produtividade pode ser prejudicada quando:",
+    "a": {
+     "l": "v",
+     "t": "Sou excessivamente solicitado no exercício de minhas atribuições a ponto de ter que sacrificar sistematicamente o meu horário de almoço ou saída."
+    },
+    "b": {
+     "l": "z",
+     "t": "As minhas responsabilidades atuais deixarem de representar um desafio."
+    }
+   },
+   {
+    "n": 13,
+    "q": "O que mais me incentiva e estimula o meu desempenho é:",
+    "a": {
+     "l": "v",
+     "t": "Um salário compatível com as minhas necessidades básicas e as de minha família."
+    },
+    "b": {
+     "l": "w",
+     "t": "Um supervisor imediato em quem eu possa confiar, condições de trabalho bem organizadas e um ambiente de trabalho onde quase tudo já foi previsto e planejado."
+    }
+   },
+   {
+    "n": 14,
+    "q": "Se eu tiver que escolher entre duas organizações para trabalhar, prefiro aquela que:",
+    "a": {
+     "l": "w",
+     "t": "Oferecer-me normas de trabalho claramente definidas, sólidas garantias de estabilidade, e assegurar-me privilégios mais amplos de assistência médica hospitalar."
+    },
+    "b": {
+     "l": "x",
+     "t": "Convidar-me para fazer parte de uma equipe de trabalho que mantém excelentes relações entre os seus membros."
+    }
+   },
+   {
+    "n": 15,
+    "q": "O tipo de subordinado que mais me irrita é aquele que:",
+    "a": {
+     "l": "w",
+     "t": "Não pensa no dia de amanhã."
+    },
+    "b": {
+     "l": "x",
+     "t": "É antissocial e confunde qualquer iniciativa de sociabilidade com puxa-saquismo."
+    }
+   },
+   {
+    "n": 16,
+    "q": "Desenvolvo minhas responsabilidades com maior entusiasmo e eficiência quando:",
+    "a": {
+     "l": "y",
+     "t": "Conferem-me reconhecimento em função dos meus méritos exclusivamente."
+    },
+    "b": {
+     "l": "z",
+     "t": "Proporcionam-me uma oportunidade de testar a minha própria capacidade e tenho acesso aos meus resultados."
+    }
+   },
+   {
+    "n": 17,
+    "q": "Se na minha próxima promoção me for dado escolher entre dois cargos, darei preferência àquele que:",
+    "a": {
+     "l": "v",
+     "t": "Oferecer-me boas condições de trabalho: ambiente confortável, amplo e limpo, com boa iluminação e temperatura agradável, restaurante interno e comida saborosa."
+    },
+    "b": {
+     "l": "w",
+     "t": "Oferecer-me normas de trabalho claramente definidas, sólidas garantias de estabilidade, e assegurar-me privilégios mais amplos de assistência médica hospitalar."
+    }
+   },
+   {
+    "n": 18,
+    "q": "A minha produtividade pode ser prejudicada quando:",
+    "a": {
+     "l": "x",
+     "t": "Delegam-me responsabilidades que exigem a minha dedicação pessoal e fico privado de compartilhar os meus problemas e as minhas ideias com os meus companheiros."
+    },
+    "b": {
+     "l": "y",
+     "t": "Outro executivo, sem as qualificações que possuo, for promovido por mero favoritismo para o cargo que eu estou planejando assumir num futuro próximo."
+    }
+   },
+   {
+    "n": 19,
+    "q": "O que mais me incentiva e estimula o meu desempenho é:",
+    "a": {
+     "l": "x",
+     "t": "O relacionamento cordial e harmonioso com os meus colegas, meus superiores e meus subordinados, bem como a convicção de que sou bem aceito por eles."
+    },
+    "b": {
+     "l": "y",
+     "t": "O reconhecimento que me conferem exclusivamente em função dos meus méritos."
+    }
+   },
+   {
+    "n": 20,
+    "q": "Se eu tiver que escolher entre duas organizações para trabalhar, prefiro aquela que:",
+    "a": {
+     "l": "y",
+     "t": "Ofereça-me um cargo que me confira maior prestígio e poder."
+    },
+    "b": {
+     "l": "z",
+     "t": "Proporcionar-me autonomia para criar, liberdade para experimentar e autoridade para inovar."
+    }
+   },
+   {
+    "n": 21,
+    "q": "O tipo de subordinado que mais me irrita é aquele que:",
+    "a": {
+     "l": "v",
+     "t": "Não valoriza as boas condições ambientais de trabalho que lhe são oferecidas (instalações físicas confortáveis, bem iluminadas, restaurante interno etc.)."
+    },
+    "b": {
+     "l": "x",
+     "t": "É antissocial e confunde qualquer iniciativa de sociabilidade com puxa-saquismo."
+    }
+   },
+   {
+    "n": 22,
+    "q": "Desenvolvo minhas responsabilidades com maior entusiasmo e eficiência quando:",
+    "a": {
+     "l": "x",
+     "t": "Mantenho um relacionamento cordial e harmonioso com os meus colegas, meus superiores e meus subordinados, bem como a convicção de que sou bem aceito por eles."
+    },
+    "b": {
+     "l": "z",
+     "t": "Proporcionam-me uma oportunidade de testar a minha própria capacidade e tenho acesso aos meus resultados."
+    }
+   },
+   {
+    "n": 23,
+    "q": "Se na minha próxima promoção me for dado escolher entre dois cargos, darei preferência àquele que:",
+    "a": {
+     "l": "v",
+     "t": "Oferecer-me boas condições de trabalho: ambiente confortável, amplo e limpo, com boa iluminação e temperatura agradável, restaurante interno e comida saborosa."
+    },
+    "b": {
+     "l": "z",
+     "t": "Proporcionar-me autonomia para criar, liberdade para experimentar e autoridade para inovar."
+    }
+   },
+   {
+    "n": 24,
+    "q": "A minha produtividade pode ser prejudicada quando:",
+    "a": {
+     "l": "w",
+     "t": "Perco a confiança no meu chefe, desconfio da estabilidade do meu cargo, temo pela sobrevivência da minha organização."
+    },
+    "b": {
+     "l": "y",
+     "t": "Outro executivo, sem as qualificações que possuo, for promovido por mero favoritismo para o cargo que eu estou planejando assumir num futuro próximo."
+    }
+   },
+   {
+    "n": 25,
+    "q": "O que mais me incentiva e estimula o meu desempenho é:",
+    "a": {
+     "l": "v",
+     "t": "Um salário compatível com as minhas necessidades básicas e as de minha família."
+    },
+    "b": {
+     "l": "y",
+     "t": "O reconhecimento que me conferem exclusivamente em função dos meus méritos."
+    }
+   },
+   {
+    "n": 26,
+    "q": "Se eu tiver que escolher entre duas organizações para trabalhar, prefiro aquela que:",
+    "a": {
+     "l": "x",
+     "t": "Convidar-me para fazer parte de uma equipe de trabalho que mantém excelentes relações entre os seus membros."
+    },
+    "b": {
+     "l": "y",
+     "t": "Ofereça-me um cargo que me confira maior prestígio e poder."
+    }
+   },
+   {
+    "n": 27,
+    "q": "O tipo de subordinado que mais me irrita é aquele que:",
+    "a": {
+     "l": "w",
+     "t": "Não pensa no dia de amanhã."
+    },
+    "b": {
+     "l": "z",
+     "t": "Resiste a colaborar comigo na experimentação de novas ideias."
+    }
+   },
+   {
+    "n": 28,
+    "q": "Desenvolvo minhas responsabilidades com maior entusiasmo e eficiência quando:",
+    "a": {
+     "l": "w",
+     "t": "Tenho um superior imediato em quem eu possa confiar, condições de trabalho bem organizadas e um ambiente de trabalho onde quase tudo já foi previsto e planejado."
+    },
+    "b": {
+     "l": "x",
+     "t": "Mantenho um relacionamento cordial e harmonioso com os meus colegas, meus superiores e meus subordinados, bem como a convicção de que sou bem aceito por eles."
+    }
+   },
+   {
+    "n": 29,
+    "q": "Se na minha próxima promoção me for dado escolher entre dois cargos, darei preferência àquele que:",
+    "a": {
+     "l": "x",
+     "t": "Proporcionar-me oportunidade para integrar uma equipe de trabalho que mantém excelentes relações entre os seus membros."
+    },
+    "b": {
+     "l": "z",
+     "t": "Proporcionar-me autonomia para criar, liberdade para experimentar e autoridade para inovar."
+    }
+   },
+   {
+    "n": 30,
+    "q": "A minha produtividade pode ser prejudicada quando:",
+    "a": {
+     "l": "v",
+     "t": "Sou excessivamente solicitado no exercício de minhas atribuições a ponto de ter que sacrificar sistematicamente o meu horário de almoço ou saída."
+    },
+    "b": {
+     "l": "w",
+     "t": "Perco a confiança no meu chefe."
+    }
+   }
+  ],
+  "LETTERS": [
+   "v",
+   "w",
+   "x",
+   "y",
+   "z"
+  ],
+  "N": {
+   "v": {
+    "resumo": "Sustento, remuneração e conforto material no trabalho.",
+    "L": "V",
+    "nome": "Fisiológicas",
+    "nivel": 1,
+    "ordem": "baixa",
+    "herz": "higiene",
+    "def": "Necessidades de sustento e conforto material: remuneração que cubra o básico da pessoa e da família, condições físicas do ambiente (instalações, iluminação, temperatura, alimentação) e preservação dos tempos de descanso, como horário de almoço e de saída. Na hierarquia é o primeiro degrau e, segundo o material, é satisfeita sobretudo por meios externos, como salário e contrato.",
+    "alto": "A tensão mais forte está na base material. Enquanto essa necessidade não estiver resolvida, apelos a desafio, status ou pertencimento tendem a ter pouco efeito, porque a energia da pessoa está voltada para garantir sustento e conforto. Isso costuma refletir um momento de vida (compromissos financeiros, mudança, família) mais do que um traço permanente.",
+    "baixo": "A base material está, neste momento, razoavelmente atendida. Salário e condições físicas continuam importando, mas não são a principal alavanca para engajar esta pessoa.",
+    "trabalho": [
+     "Atenção elevada a salário, benefícios, pagamento em dia e cumprimento de jornada.",
+     "Queda de produtividade quando a sobrecarga invade sistematicamente horários de almoço e saída.",
+     "Sensibilidade às condições físicas do posto de trabalho."
+    ],
+    "motivar": [
+     "Proposta salarial clara e compatível com as necessidades declaradas, sem promessas vagas de ganhos futuros.",
+     "Jornada respeitada e política objetiva para horas extras.",
+     "Condições de trabalho adequadas (ambiente, refeições, deslocamento)."
+    ],
+    "riscos": [
+     "Maior vulnerabilidade a propostas concorrentes com diferencial salarial.",
+     "Pelo modelo de Herzberg, atender esses fatores reduz a insatisfação, mas não gera motivação duradoura por si só."
+    ],
+    "encaixe": "Tende a responder bem a funções com remuneração previsível e jornada organizada.",
+    "atencao": "Avalie se a faixa salarial da vaga cobre a expectativa real; um desalinhamento aqui compromete o restante da proposta.",
+    "perguntas": [
+     "Qual é a sua pretensão salarial e o que ela precisa cobrir hoje na sua vida?",
+     "Como você lida com períodos em que a jornada se estende além do combinado?",
+     "O que faria você considerar outra proposta nos primeiros doze meses?"
+    ],
+    "alavancas": [
+     "Remuneração fixa competitiva e transparente",
+     "Benefícios concretos (alimentação, saúde, transporte)",
+     "Respeito à jornada e às pausas"
+    ]
+   },
+   "w": {
+    "resumo": "Estabilidade, previsibilidade, regras claras e confiança na liderança.",
+    "L": "W",
+    "nome": "Segurança",
+    "nivel": 2,
+    "ordem": "baixa",
+    "herz": "higiene",
+    "def": "Necessidade de proteção, estabilidade e previsibilidade: normas claramente definidas, garantias de estabilidade, assistência médica, um chefe em quem confiar, um ambiente onde quase tudo já foi previsto e planejado, e confiança na continuidade da organização. É o segundo degrau da hierarquia e também de baixa ordem.",
+    "alto": "A pessoa está mobilizada pela busca de estabilidade e previsibilidade. Ambiguidade, mudanças bruscas, perda de confiança na liderança ou dúvidas sobre o futuro da empresa geram tensão e podem derrubar o desempenho.",
+    "baixo": "Há conforto razoável com incerteza e mudança. A pessoa não depende de regras rígidas nem de garantias formais para se engajar, o que também pode significar menor atenção a planejamento e normas.",
+    "trabalho": [
+     "Preferência por processos, papéis e critérios bem definidos.",
+     "Valorização de um líder confiável e coerente entre o que diz e o que faz.",
+     "Desconforto com reestruturações, metas voláteis e remuneração muito variável."
+    ],
+    "motivar": [
+     "Comunicação transparente sobre o momento da empresa e mudanças previstas.",
+     "Acordos cumpridos, regras claras e expectativas de desempenho explícitas.",
+     "Benefícios de proteção (saúde, previdência) e perspectiva de continuidade."
+    ],
+    "riscos": [
+     "Resistência a mudanças e dificuldade em contextos de alta ambiguidade.",
+     "Perda rápida de engajamento quando a confiança no chefe é quebrada."
+    ],
+    "encaixe": "Costuma render bem em funções de processo, controle, qualidade, conformidade e operação estruturada.",
+    "atencao": "Cuidado com vagas em ambientes muito instáveis, com remuneração majoritariamente variável ou em reestruturação.",
+    "perguntas": [
+     "Conte sobre uma mudança organizacional que você viveu. Como reagiu e o que o ajudou?",
+     "O que um líder precisa fazer para ganhar e manter a sua confiança?",
+     "Como você se organiza quando as regras e prioridades ainda não estão definidas?"
+    ],
+    "alavancas": [
+     "Clareza de papel, regras e critérios",
+     "Liderança confiável e previsível",
+     "Benefícios de proteção e perspectiva de estabilidade"
+    ]
+   },
+   "x": {
+    "resumo": "Pertencimento, aceitação e relações harmoniosas com a equipe.",
+    "L": "X",
+    "nome": "Associação",
+    "nivel": 3,
+    "ordem": "alta",
+    "herz": "higiene",
+    "def": "Necessidade afetivo-social de pertencer, ser aceito e manter relações cordiais e harmoniosas com colegas, superiores e subordinados, fazendo parte de uma equipe com boas relações e podendo compartilhar ideias e problemas. Corresponde ao terceiro degrau (afetivo-social) e se aproxima da necessidade de afiliação descrita por McClelland.",
+    "alto": "A pessoa está buscando pertencimento e aceitação. Rende mais em ambientes cooperativos e tende a perder produtividade quando isolada ou em clima de competição interna. Relações de trabalho pesam muito na sua satisfação.",
+    "baixo": "A pessoa não depende do grupo para se sentir bem no trabalho. Tende a ter independência e conforto com tarefas individuais, podendo parecer mais reservada ou distante na integração.",
+    "trabalho": [
+     "Busca de cooperação em vez de competição.",
+     "Queda de desempenho quando precisa trabalhar isolado, sem trocar ideias com a equipe.",
+     "Tendência a evitar conflitos e decisões impopulares."
+    ],
+    "motivar": [
+     "Integração cuidadosa e acesso rápido à equipe.",
+     "Rituais de time, trabalho colaborativo e espaço para trocar ideias.",
+     "Feedback direto, porém respeitoso, preservando o vínculo."
+    ],
+    "riscos": [
+     "Dificuldade em dar feedback duro ou confrontar desempenho, relevante para cargos de liderança.",
+     "Desmotivação em funções solitárias, remotas isoladas ou muito competitivas."
+    ],
+    "encaixe": "Tende a se encaixar bem em atendimento, trabalho em equipe, funções de apoio e facilitação.",
+    "atencao": "Segundo McClelland, os gestores mais eficazes costumam combinar poder elevado com afiliação mais baixa; se a vaga for de liderança, investigue como a pessoa lida com conflito.",
+    "perguntas": [
+     "Conte uma situação em que precisou dar um feedback difícil a um colega próximo.",
+     "Como foi a experiência mais longa que você teve trabalhando sozinho em um projeto?",
+     "Que tipo de clima de equipe faz você render menos?"
+    ],
+    "alavancas": [
+     "Equipe com bom clima e integração estruturada",
+     "Trabalho colaborativo e canais de troca",
+     "Liderança acessível e próxima"
+    ]
+   },
+   "y": {
+    "resumo": "Reconhecimento por mérito, respeito, prestígio e influência.",
+    "L": "Y",
+    "nome": "Autoestima",
+    "nivel": 4,
+    "ordem": "alta",
+    "herz": "misto",
+    "def": "Necessidade de estima: ser respeitado e considerado, ser reconhecido exclusivamente pelos próprios méritos, ter prestígio, status e poder. Inclui fatores internos (amor-próprio) e externos (reconhecimento, atenção, status). É o quarto degrau e se aproxima da necessidade de poder de McClelland, ou seja, o desejo de influenciar e ter impacto.",
+    "alto": "A pessoa está mobilizada por reconhecimento, respeito e ascensão. Quer que o seu valor seja visto e recompensado de forma justa. Situações de favoritismo, desrespeito ou falta de reconhecimento tendem a gerar forte insatisfação.",
+    "baixo": "Status e reconhecimento externo não são o principal motor. A pessoa pode ser pouco movida por títulos e por disputas de posição, o que em cargos de liderança pode aparecer como menor assertividade para ocupar espaço e influenciar.",
+    "trabalho": [
+     "Busca por visibilidade, responsabilidade de destaque e crescimento hierárquico.",
+     "Sensibilidade elevada a injustiças meritocráticas e promoções por favoritismo.",
+     "Gosto por situações competitivas e orientadas a status."
+    ],
+    "motivar": [
+     "Reconhecimento específico e oportuno, ligado a resultados concretos.",
+     "Critérios de avaliação e promoção transparentes e baseados em mérito.",
+     "Perspectiva real de ascensão, títulos e escopo de influência."
+    ],
+    "riscos": [
+     "Desengajamento rápido em estruturas sem perspectiva de ascensão ou com promoções políticas.",
+     "Possível foco excessivo em prestígio e competição interna."
+    ],
+    "encaixe": "Tende a se encaixar em trilhas de liderança, vendas com metas e ranking, e funções de representação.",
+    "atencao": "Verifique se a vaga oferece de fato perspectiva de crescimento; prometer ascensão que não existe gera frustração rápida.",
+    "perguntas": [
+     "Qual reconhecimento mais marcou a sua carreira e por quê?",
+     "Como você reagiu quando alguém foi promovido para uma posição que você esperava?",
+     "Onde você se vê em três anos, em termos de posição e influência?"
+    ],
+    "alavancas": [
+     "Reconhecimento por mérito, visível e específico",
+     "Plano de carreira com critérios claros",
+     "Escopo de decisão e influência"
+    ]
+   },
+   "z": {
+    "resumo": "Desafio, autonomia para criar e crescimento pessoal.",
+    "L": "Z",
+    "nome": "Autorrealização",
+    "nivel": 5,
+    "ordem": "alta",
+    "herz": "motivacional",
+    "def": "Impulso de tornar-se aquilo que se é capaz de ser: testar a própria capacidade, ter acesso aos próprios resultados, contar com autonomia para criar, liberdade para experimentar e autoridade para inovar, e manter o trabalho desafiador. É o topo da hierarquia e corresponde à necessidade de realização de McClelland e aos fatores motivacionais de Herzberg.",
+    "alto": "A pessoa está em busca de desafio, crescimento e autonomia. Engaja-se pelo conteúdo do trabalho e perde motivação rapidamente quando as responsabilidades deixam de ser desafiadoras ou quando encontra resistência a novas ideias.",
+    "baixo": "Desafio e inovação não são, agora, o principal motor. A pessoa pode preferir tarefas conhecidas e estáveis, com motivação vinda de outras bases.",
+    "trabalho": [
+     "Preferência por responsabilidade pessoal sobre os resultados, feedback rápido e riscos moderados.",
+     "Busca de metas desafiadoras, nem fáceis demais nem impossíveis.",
+     "Irritação com burocracia, microgestão e resistência a experimentar."
+    ],
+    "motivar": [
+     "Metas específicas e desafiadoras, com feedback frequente sobre o progresso (teoria de determinação de metas).",
+     "Autonomia com responsabilidade clara pelo resultado.",
+     "Projetos novos, ampliação de escopo e oportunidades de aprendizado."
+    ],
+    "riscos": [
+     "Saída precoce se a função se tornar rotineira ou excessivamente controlada.",
+     "McClelland observa que um alto realizador nem sempre é um bom gestor de grandes equipes, pois tende a focar no próprio desempenho."
+    ],
+    "encaixe": "Tende a se encaixar em projetos, inovação, novos negócios, melhoria contínua e unidades com autonomia.",
+    "atencao": "Se a vaga for muito operacional e repetitiva, investigue a tolerância à rotina e o horizonte de desafios que a empresa pode oferecer.",
+    "perguntas": [
+     "Qual foi o maior desafio que você escolheu enfrentar e como mediu o seu sucesso?",
+     "Como você sabe se está indo bem no trabalho? Que tipo de feedback procura?",
+     "O que você faz quando uma função fica rotineira?"
+    ],
+    "alavancas": [
+     "Desafio real e metas ambiciosas com feedback",
+     "Autonomia para criar e experimentar",
+     "Crescimento, aprendizado e novos projetos"
+    ]
+   }
+  }
+ },
+ "bas": {
+  "S": {
+   "Z1": "Gosto de aperfeiçoar constantemente as minhas competências pessoais.",
+   "Z2": "Esforço-me por melhorar os meus resultados anteriores.",
+   "Z3": "Gosto de saber quando o meu trabalho foi bem ou mal realizado, para fazer melhor no futuro.",
+   "Z4": "Tento fazer o meu trabalho de modo inovador.",
+   "Y1": "Gosto de ser solidário com as outras pessoas, mesmo que não sejam das minhas relações íntimas.",
+   "Y2": "No trabalho, gosto de ser uma pessoa amável.",
+   "Y3": "Fico preocupado quando sinto que, de alguma forma, contribuí para o mal-estar das relações íntimas no trabalho.",
+   "Y4": "Sinto satisfação quando vejo que uma pessoa que me pediu ajuda fica feliz com o meu apoio.",
+   "X1": "Tenho discussões com os outros porque costumo insistir naquilo que penso que deve ser feito.",
+   "X2": "Quando participo de algum convívio, aproveito para influenciar os outros e obter o seu apoio para aquilo que quero fazer.",
+   "X3": "Quando chamo pessoas para o trabalho da minha equipe, procuro as que me permitam exercer mais influência.",
+   "X4": "Tenho um desejo secreto de chamar a atenção das pessoas."
+  },
+  "Q": [
+   [
+    "Z1",
+    "Y1"
+   ],
+   [
+    "Z1",
+    "Y2"
+   ],
+   [
+    "Z2",
+    "Y3"
+   ],
+   [
+    "Z3",
+    "Y1"
+   ],
+   [
+    "Z4",
+    "Y4"
+   ],
+   [
+    "Z4",
+    "Y2"
+   ],
+   [
+    "Z1",
+    "X1"
+   ],
+   [
+    "Z2",
+    "X1"
+   ],
+   [
+    "Z2",
+    "X2"
+   ],
+   [
+    "Z3",
+    "X1"
+   ],
+   [
+    "Z3",
+    "X3"
+   ],
+   [
+    "Z3",
+    "X2"
+   ],
+   [
+    "Z4",
+    "X4"
+   ],
+   [
+    "Z4",
+    "X1"
+   ],
+   [
+    "Z4",
+    "X3"
+   ],
+   [
+    "Z4",
+    "X2"
+   ],
+   [
+    "Y1",
+    "X4"
+   ],
+   [
+    "Y2",
+    "X4"
+   ],
+   [
+    "Y3",
+    "X1"
+   ],
+   [
+    "Y2",
+    "X3"
+   ],
+   [
+    "Y3",
+    "X3"
+   ],
+   [
+    "Z2",
+    "Y1"
+   ],
+   [
+    "Z3",
+    "Y2"
+   ],
+   [
+    "Z4",
+    "Y3"
+   ],
+   [
+    "Y4",
+    "X4"
+   ],
+   [
+    "Y1",
+    "X1"
+   ],
+   [
+    "Y1",
+    "X3"
+   ],
+   [
+    "Z1",
+    "Y4"
+   ],
+   [
+    "Y3",
+    "X2"
+   ],
+   [
+    "Z2",
+    "Y4"
+   ],
+   [
+    "Z3",
+    "Y3"
+   ],
+   [
+    "Z1",
+    "X4"
+   ],
+   [
+    "Z4",
+    "Y1"
+   ],
+   [
+    "Z1",
+    "Y3"
+   ],
+   [
+    "Z3",
+    "Y4"
+   ],
+   [
+    "Z1",
+    "X2"
+   ],
+   [
+    "Z2",
+    "X4"
+   ],
+   [
+    "Y4",
+    "X1"
+   ],
+   [
+    "Z1",
+    "X3"
+   ],
+   [
+    "Z3",
+    "X4"
+   ],
+   [
+    "Y4",
+    "X3"
+   ],
+   [
+    "Y1",
+    "X2"
+   ],
+   [
+    "Y2",
+    "X1"
+   ],
+   [
+    "Y3",
+    "X4"
+   ],
+   [
+    "Z2",
+    "Y2"
+   ]
+  ],
+  "M": {
+   "Z": {
+    "nome": "Realização",
+    "cor": "var(--r)",
+    "letra": "Z",
+    "resumo": "Busca da excelência, superação de padrões e resultados concretos.",
+    "texto": [
+     "Pessoas com motivação predominante para realização buscam a excelência. São personalidades mais competitivas, que visam sempre “ganhar” e possuem padrões autoimpostos para um desempenho diferenciado.",
+     "Envolvem-se emocionalmente com a obtenção ou o alcance de um objetivo específico, mesmo que seja a duras penas. Buscam fazer o melhor e avaliam constantemente o próprio desempenho em relação aos resultados. São inventivas, inovadoras e criativas, buscam objetivos de longo prazo e trabalham para ter sucesso na vida."
+    ]
+   },
+   "X": {
+    "nome": "Poder",
+    "cor": "var(--p)",
+    "letra": "X",
+    "resumo": "Influenciar pessoas, ter controle, liderar e ser reconhecido.",
+    "texto": [
+     "Pessoas com motivação predominante para poder são movidas pela obtenção ou manutenção do controle dos meios de influenciar pessoas. Buscam mostrar dominância, convencer alguém ou conquistar uma posição de controle, e trabalham emocionalmente para evitar fraquezas ou humilhações.",
+     "A motivação se manifesta como desejo de inspirar ou ensinar outras pessoas. Têm forte desejo de argumentar, exigir ou até forçar padrões nos outros, como dar uma ordem, convencer ou cobrar. Buscam ser superiores e gostam de ter controle dos meios de influenciar a equipe."
+    ]
+   },
+   "Y": {
+    "nome": "Afiliação",
+    "cor": "var(--a)",
+    "letra": "Y",
+    "resumo": "Construir e manter relações positivas, pertencer e cuidar das pessoas.",
+    "texto": [
+     "Pessoas com motivação predominante para afiliação buscam sempre o estabelecimento, a manutenção e a restauração de relações emocionais positivas com outras pessoas. A amizade é o tipo mais básico dessa relação, e as relações afetivas tendem a predominar em detrimento dos resultados.",
+     "Têm necessidade de serem queridas e, por isso, buscam relações de “querer bem”. Quando uma relação próxima é rompida, sentem-se emocionalmente abaladas e trabalham, mesmo que inconscientemente, para restaurá-la. São voltadas a atividades associativas, como reuniões, encontros e conversas descontraídas, e demonstram preocupação genuína com o bem-estar dos outros."
+    ]
+   }
+  }
+ }
+}

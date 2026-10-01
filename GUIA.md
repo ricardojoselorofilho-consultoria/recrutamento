@@ -8,6 +8,10 @@ O recrutador entra no painel, cadastra o candidato e gera um link pessoal. O can
 
 As chaves de correção e os textos de interpretação ficam apenas no servidor. O navegador do candidato recebe somente o texto das perguntas.
 
+## Escolha dos questionários
+
+Ao convidar um candidato, o recrutador marca quais questionários ele vai responder (de um a quatro). A jornada do candidato, o tempo informado, o e-mail de convite e o relatório se ajustam à escolha. Um novo link gerado para o mesmo candidato mantém a mesma seleção.
+
 ## Passo 1. Criar as contas
 
 Crie uma conta em cada serviço, de preferência com o mesmo e-mail corporativo:
@@ -87,6 +91,18 @@ Sem essa configuração, o painel mostra o link para você copiar e enviar por W
 
   Se mudar o prazo, atualize também o texto do termo, que menciona 180 dias.
 
+## Atualizações do sistema
+
+Quando receber uma nova versão do projeto:
+
+1. Se a versão trouxer um arquivo `supabase/atualizacao-XX-....sql`, rode esse arquivo no SQL Editor do Supabase **antes** de atualizar o GitHub.
+2. No GitHub, abra o repositório e clique em **Add file > Upload files**. Arraste o conteúdo da pasta nova (as pastas `app`, `components`, `lib`, `supabase` e os demais arquivos). Os arquivos com o mesmo nome são substituídos.
+3. Clique em **Commit changes**. A Vercel publica a nova versão sozinha em cerca de um minuto.
+
+| Atualização | Arquivo SQL |
+|---|---|
+| Escolher quais questionários enviar | `supabase/atualizacao-01-escolher-questionarios.sql` |
+
 ## Onde alterar cada coisa
 
 | O que | Arquivo |
@@ -110,4 +126,3 @@ No GitHub, dá para editar um arquivo direto no navegador (ícone de lápis). Ao
 ## Rodar no computador (opcional, para quem for mexer no código)
 
 Com Node.js 20 ou superior instalado: copie `.env.example` para `.env.local`, preencha os valores e rode `npm install` e depois `npm run dev`. O sistema abre em `http://localhost:3000`.
-

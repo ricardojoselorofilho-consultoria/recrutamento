@@ -4,6 +4,13 @@ import { useActionState } from "react";
 import { criarCandidato, type EstadoLink } from "@/app/painel/actions";
 import LinkGerado from "./LinkGerado";
 
+const OPCOES = [
+  { valor: "indicador", nome: "Indicador Tipológico", detalhe: "44 perguntas, 10 min" },
+  { valor: "locus", nome: "Lócus de Controle", detalhe: "20 questões, 10 min" },
+  { valor: "motivograma", nome: "Motivograma", detalhe: "30 proposições, 8 min" },
+  { valor: "bases", nome: "Bases Motivacionais", detalhe: "45 pares, 10 min" },
+];
+
 export default function NovoCandidato() {
   const [estado, acao, pendente] = useActionState<EstadoLink, FormData>(criarCandidato, null);
   return (
@@ -21,6 +28,15 @@ export default function NovoCandidato() {
             <option value="15">15 dias</option><option value="30">30 dias</option>
           </select>
         </label>
+        <fieldset className="questionarios largo">
+          <legend>Questionários que o candidato vai responder</legend>
+          {OPCOES.map((o) => (
+            <label key={o.valor} className="opcao-q">
+              <input type="checkbox" name="instrumentos" value={o.valor} defaultChecked />
+              <span><strong>{o.nome}</strong><small>{o.detalhe}</small></span>
+            </label>
+          ))}
+        </fieldset>
         <label className="marcar largo"><input type="checkbox" name="enviar" defaultChecked /> Enviar o convite por e-mail, se o e-mail estiver preenchido</label>
         <div className="largo"><button className="btn" disabled={pendente}>{pendente ? "Gerando" : "Gerar link"}</button></div>
       </form>

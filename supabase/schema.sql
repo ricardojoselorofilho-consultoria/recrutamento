@@ -20,6 +20,8 @@ create table if not exists candidatos (
   cargo         text,
   empresa       text,
   cidade        text,
+  -- questionários enviados a este candidato
+  instrumentos  text[] not null default array['indicador','locus','motivograma','bases'],
   criado_por    uuid references auth.users(id) on delete set null,
   criado_em     timestamptz not null default now(),
   iniciado_em   timestamptz,

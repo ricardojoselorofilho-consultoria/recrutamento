@@ -215,3 +215,13 @@ a { color: var(--tinta); }
 }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* ---------- Escolha de questionários ---------- */
+.questionarios { border: 1px solid var(--linha); border-radius: 8px; padding: 14px 16px 6px; margin: 0 0 18px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 16px; }
+.questionarios legend { font-size: .92rem; font-weight: 600; color: var(--tinta); padding: 0 6px; }
+.opcao-q { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; cursor: pointer; }
+.opcao-q input { margin-top: 4px; width: 18px; height: 18px; accent-color: var(--tinta); }
+.opcao-q span { display: grid; }
+.opcao-q small { color: var(--suave); font-size: .85rem; }
+@media (max-width: 760px) { .questionarios { grid-template-columns: 1fr; } }
+.lista-q { font-size: .9rem; color: var(--suave); max-width: 200px; }

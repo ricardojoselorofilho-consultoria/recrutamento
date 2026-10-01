@@ -110,3 +110,4 @@ No GitHub, dá para editar um arquivo direto no navegador (ícone de lápis). Ao
 ## Rodar no computador (opcional, para quem for mexer no código)
 
 Com Node.js 20 ou superior instalado: copie `.env.example` para `.env.local`, preencha os valores e rode `npm install` e depois `npm run dev`. O sistema abre em `http://localhost:3000`.
+
